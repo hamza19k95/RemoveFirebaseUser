@@ -1,0 +1,15 @@
+{
+  "name": "Firebase Adimn Handler",
+  "version": "1.0.0",
+  "description": "Backend for starter bits",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "nodemon server.js",
+    "client": "npm start --prefix client"
+  },
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "nodemon": "^2.0.15"
+  }
+}
